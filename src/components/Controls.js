@@ -112,8 +112,8 @@ function Controls({
           onChange={(e) => setLayoutType(e.target.value)}
         >
           <option value="hierarchical">Hierarchical</option>
-          <option value="radial">Radial</option>
-          <option value="force">Force-directed</option>
+          {/* <option value="radial">Radial</option>
+          <option value="force">Force-directed</option> */}
         </Select>
       </ControlGroup>
       
